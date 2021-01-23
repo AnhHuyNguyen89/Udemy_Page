@@ -1,0 +1,21 @@
+// luôn luôn import helper vào trước vì có chứa biến
+@import './Helper/variables';
+@import './Helper/mixin';
+
+@import './Base/reset';
+
+@import './Components/button';
+
+@import './Layouts/header';
+@import './Layouts/carousel';
+@import './Layouts/intro';
+@import './Layouts/courses';
+@import'./Layouts/student';
+@import'./Layouts/recommend';
+@import'./Layouts/topCategories';
+@import'./Layouts/comment';
+@import'./Layouts/companies';
+@import'./Layouts/footer';
+
+@import './Base/normalize';
+@import './Base/customize';

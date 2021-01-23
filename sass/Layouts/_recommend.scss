@@ -1,0 +1,45 @@
+.recommend {
+    .border_top {
+      background: linear-gradient(to right, $color-purple, $color-red-0);
+      height: 8px;
+    }
+    .recommend_content {
+      background-color: #29303b;
+      box-sizing: border-box;
+      .banner_icon {
+        padding-bottom: 32px;
+        font-size: 32px;
+        padding-top: 48px;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+        color: #fff;
+      }
+      .banner_text {
+        font-size: 32px;
+        padding-top: 48px;
+        padding-bottom: 32px;
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        align-items: center;
+        color: #fff;
+        margin: 0 auto;
+        .text_item {
+          text-align: center;
+          h3 {
+            font-size: 24px !important;
+            font-weight: 600;
+            line-height: 1.33em;
+          }
+          p{
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 1.33em;
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,38 @@
+footer{
+    color: #007791;
+    line-height: 18px;
+    font-size: 13px;
+    background-color: $color-white-0;
+    margin-top: 40px;
+    ul{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        height: 110px;
+        flex-direction: column;
+        li{
+            text-decoration: none;
+            padding: 0 8px;
+            font-weight: bold;
+            font-size: 14px;
+            flex: 25%;
+            flex-grow: 0;
+        }
+    }
+   select{
+       width: 40%;
+       text-align: left;
+   }
+   .footer_last{
+       margin: 15px;
+    .dib{
+        display: inline-block;
+        margin-right: 15px;
+    }
+    .did{
+        display: inline-block;
+       text-align: right;
+    }
+   }
+   
+}

@@ -1,0 +1,33 @@
+.comment{
+    background-color: #F7F8FA;
+    padding-bottom: 10px;
+    h3{
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+    .comment_profie{
+        background-color: #fff;
+        padding: 32px;
+        box-shadow:0 1px 3px 0 rgba(20,23,28,.15);
+        height: 100%;
+        .ava{
+            padding: 15px 20px;
+            line-height: 50px;
+            background-color: #686F7A;
+            border-radius: 50%;
+            color:  #fff;
+            display: inline;
+        }
+        .name{
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 1.5em;
+            align-items: center;
+            padding-left: 10px;
+        }
+        .comment_content{
+            margin: 0 auto;
+            padding-top: 20px;
+        }
+    }
+}

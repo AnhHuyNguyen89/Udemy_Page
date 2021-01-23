@@ -1,0 +1,40 @@
+.udemyNav {
+  @include styleText($color-black-light, $fs-1, $fw-normal);
+  .header__left {
+    display: flex;
+    align-items: center;
+    .navbar-brand {
+      flex-grow: 0.3;
+      img {
+        width: 110px;
+      }
+    }
+    .categories {
+      flex-grow: 1;
+    }
+    .formSearch {
+      flex-grow: 20;
+      @include styleInputSearch($color-white-cream, $color-white-0, $color-white-cream, $color-gray-6);
+    }
+    @include mediaQuery("medium") {
+      .formSearch,
+      .categories {
+        display: none;
+      }
+    }
+  }
+  .header__right {
+    @include mediaQuery("extra-large") {
+      .business,
+      .teach {
+        display: none;
+      }
+    }
+    @include mediaQuery("medium") {
+      .ude-btnwhite,
+      .ude-btnred {
+        display: none;
+      }
+    }
+  }
+}

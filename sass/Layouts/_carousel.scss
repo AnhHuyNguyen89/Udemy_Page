@@ -1,0 +1,19 @@
+.udemy_carousel{
+    background-image: url('../img/cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    form{
+        @include styleInputSearch($color-white-0,$color-white-0,$color-white-0,$color-white-0);
+        margin-top: 5%;
+    }
+    h1{
+        margin-top: 50%;
+        color: $color-white-0;
+    }
+    p{
+        color: $color-white-0;
+    }
+}
